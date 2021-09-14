@@ -1,0 +1,131 @@
+.button{
+    text-align: right; padding-left: 50%;float: right;padding-top: 0px;
+}
+.btn{
+    padding-top: -10px;padding-bottom: -10px;font-size: 5.2mm;background:rgb(59, 43, 46) ;color: white;margin-left: 1mm;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.btn2{
+    font-family: 'Permanent Marker', cursive; margin-left: 2mm;
+}
+.btn2:hover{
+    transform: scale(1.2);
+}
+.head{
+    height: 30px;width: 100%; background-color: rgb(18, 18, 19);display: flex; color: white;
+}
+.block1{
+    height: 300px; width: 100%;background: url(Images/back.jpg) no-repeat center;text-align: center;padding-top: 100px;
+}
+.block2{
+    height: 800px; width: 100%; 
+}
+.subblk1{
+    height: 300px; width: 300px; margin: 60px 20px 20px 20px; float: left; border: solid rgb(241, 228, 228) 1px;
+}
+.subblk2{
+    height: 300px; width: 300px; margin: 60px 20px 20px 14%; float: left;   border: solid rgb(241, 228, 228) 1px;
+}
+.subblk3{
+    height: 300px; width: 300px; float: right; margin: 60px 20px;  border: solid rgb(241, 228, 228) 1px;
+}
+.img{
+    margin: 10px; height: 200px; width: 280px;
+}
+.simg{
+    margin: 0px 0px 10px 10px; height: 70px;width: 50px;
+}
+.clr{clear: both;}
+.sub{
+    display: flex;padding-top: 100px; border-top: solid 1px rgb(241, 228, 228);border-bottom: solid 1px rgb(241, 228, 228);
+}
+.oimg{
+    height: 70px;width: 50px; margin: 10px 10px 0px 10px;border-radius: 50%;
+}
+.sub1{
+    display: flex; width: 300px;height: 90px; margin: -50px 0px 50px 22px;
+}
+.sub2{
+    display: flex; width: 300px;height: 90px; margin: -50px 10px 50px 240px;
+}
+.sub3{
+    display: flex; width: 300px;height: 90px; margin: -50px 20px 50px 210px;
+}
+.logo{
+    display:flex;padding-top: 10px;margin-top: 50px; text-align: center; height: 70px;
+}
+.logoimg{
+    height: 70px; width: 270px;filter: grayscale(100%);padding-right: 10px;padding-top: -10px;
+}
+.foot{
+    height: 250px; background-color: rgb(18, 18, 19);display: flex; color: white;
+}
+.rightfoot{
+        width: 200px;margin-left: 500px;padding: 15px 0px 0px 20px;font-family: 'IBM Plex Serif', serif;
+}
+h4.foot{
+    font-family: 'Anton', sans-serif;
+}
+.footbtn:hover{
+    transform: scale(1.5);
+}
+.SB{
+    height: 350px; width: 550px; border: black solid 1px; margin: 80px 300px 100px 430px; background: url(Images/backsign.jpg) no-repeat center;
+}
+.blksb{
+    height: 420px;
+}
+#email{
+    height: 30px; width: 90%; margin-left: 23px; margin-top: 10px;opacity: 50%;
+}
+#pass{
+    height: 30px; width: 90%; margin-left: 23px; margin-top: 10px;opacity: 50%;
+}
+#submit{
+    margin-left: 235px;height: 30px; width: 80px;margin-top: 20px; background-color: rgb(60, 60, 90);color: white;
+}
+#submit:hover{
+    transform: scale(1.2);
+}
+.RB{
+    height: 400px; width: 550px; border: black solid 1px; margin: 10px 300px 100px 430px; background: url(Images/backsign.jpg) no-repeat center;
+}
+/* Adjusted till 1003px */
+@media screen and (max-width:1125px){ 
+    .btn{
+        font-size: 2.5mm;
+    }
+    .block1{
+        height: 400px;
+    }
+    .subblk1{
+        height: 250px;width: 250px;
+    }
+    .img{
+        height: 150px; width: 230px;
+    }
+    .subblkh3{
+        font-size: 3mm; text-align: end;
+    }
+    .simg{ height: 50px;width: 30px;}
+    .smlblk{
+        height: 50px; width: 100px;
+    }
+    .subblkp{
+        font-size: 3mm; text-align: end;
+    }
+    .subblk2{
+        height: 250px;width: 250px; margin-left: 20mm;
+    }
+    .subblk3{
+        height: 250px;width: 250px; margin-left: 10mm;
+    }
+    .logoimg{
+        width: 180px;
+    }
+    .foot{
+        margin-left: 15px; height: 300px; width: 100%;
+    }
+}
